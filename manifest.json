@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Flower power",
+  "version": "0.1",
+  "content_scripts":[
+    {
+      "matches": [
+      "<all_urls>"
+      ],
+      "js": ["jquery-3.1.1.min.js", "content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "flower.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
+
+// O comando acima manda injetar o script em todas as urls. 
+// Se quisermos injetar apenas em alugmas,
+// basta usar match paterns e colocar, na array, uma a uma a url desejada. 
+// Ex: ["http:s//blabla.com"]
+// Se colocar /* no fim da url, ele vai matcheá-la extamente. 
+// É preciso colocar https e htpp antes da url.
