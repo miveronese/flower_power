@@ -14,6 +14,7 @@ var replacers = {
   skull: " &#9760; ",
   coffee: " &#9749;  ",
   whiteflower: " &#128174; ",
+  Flower: " &#128174; ",
   rose: " &#129344; ",
   prettyflower: " &#127989; ",
   fallenleaf: " &#127810; ",
