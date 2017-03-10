@@ -21,11 +21,3 @@
     "activeTab"
   ]
 }
-
-
-// O comando acima manda injetar o script em todas as urls. 
-// Se quisermos injetar apenas em alugmas,
-// basta usar match paterns e colocar, na array, uma a uma a url desejada. 
-// Ex: ["http:s//blabla.com"]
-// Se colocar /* no fim da url, ele vai matcheá-la extamente. 
-// É preciso colocar https e htpp antes da url.
