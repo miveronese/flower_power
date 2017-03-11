@@ -7,12 +7,4 @@ I wrote this plugin just to have fun while learning CSS and JavaScript.
 Screenshots
 ----------------------------------------------------------------------------------------------
 
-![alt text](/screenshots/title.png)
-
------------------------------------------------------------------------------------------------
-
-
-![alt text](/screenshots/title2.png)
-
-![alt text](/screenshots/grandma.png)
-
+![alt text](/screenshots/headlines.png)
